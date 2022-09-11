@@ -16,7 +16,7 @@ int main(int argc, char* argv[])
 	cout<<"back "<<dat.back()<<endl;
 	cout<<"front "<<dat.front()<<endl;
 	cout<<"size "<<dat.size()<<endl;
-  dat.printList();
+	dat.printList();
 
 	// test add more to the front and back
 	// epxect tow items with 2 strings in each
@@ -28,16 +28,16 @@ int main(int argc, char* argv[])
 	// fill up the second item and add more after
 	// expect 3 items with one in the last
 	// 9 8 / 7 6 5 4 3 2 1 0 -1 -2 / -3
-		dat.push_back("5");
-		dat.push_back("4");
-		dat.push_back("3");
-		dat.push_back("2");
-		dat.push_back("1");
-		dat.push_back("0");
-		dat.push_back("-1");
-		dat.push_back("-2");
-		dat.push_back("-3");
-		dat.printList();
+	dat.push_back("5");
+	dat.push_back("4");
+	dat.push_back("3");
+	dat.push_back("2");
+	dat.push_back("1");
+	dat.push_back("0");
+	dat.push_back("-1");
+	dat.push_back("-2");
+	dat.push_back("-3");
+	dat.printList();
 
 	// pop the first string of last item and some more 
 	// 9 8 / 7 6 5 4 3 2 1 0
@@ -92,6 +92,5 @@ int main(int argc, char* argv[])
 	// 1/ new element at the end of first item
 	dat.push_front("1");
 	dat.printList();
-
 	return 0;
 }
